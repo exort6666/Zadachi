@@ -7,7 +7,7 @@ int main() {
     // Количество элементов
     vector.resize(4);
     // Возвращает вместимость массива
-    std::cout<< "capacity: " << vector.capacity() << std::endl;
+    std::cout<< vector.capacity() << std::endl;
     // Добавляет элемент в конец массива
     int a = 2;
     vector.push_back(a);
@@ -22,7 +22,7 @@ int main() {
     }
     // Изменяет вместимость под текущее количество элементов
     vector.shrink_to_fit();
-    std::cout << "capacity: " << vector.capacity() << std::endl;
+    std::cout << vector.capacity() << std::endl;
     // Удаляет все элементы массива
     vector.clear();
     // Добавляет объект в вектор без лишнего копирования без лишнего копирования 
